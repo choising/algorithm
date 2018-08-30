@@ -21,6 +21,7 @@ public class CenterCharacter {
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
 		System.out.println(cc.solution(s));
+		sc.close();
 	}
 	
 	public String solution(String s) {

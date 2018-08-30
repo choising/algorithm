@@ -21,13 +21,10 @@ package level1;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class HateSameNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HateSameNumber hsn = new HateSameNumber();
-		Scanner sc = new Scanner(System.in);
 	}
 	
 	public int[] solution(int []arr) {

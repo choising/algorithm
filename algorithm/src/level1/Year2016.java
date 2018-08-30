@@ -13,7 +13,6 @@ a	b	result
 
 package level1;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Year2016 {
@@ -26,6 +25,7 @@ public class Year2016 {
 		System.out.println("b : ");
 		int b = sc.nextInt();
 		System.out.println(solution(a, b));
+		sc.close();
 	}
 	
 	public static String solution(int a, int b) {
