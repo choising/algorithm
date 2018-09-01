@@ -27,11 +27,11 @@ Pyy	false
 
 package level1;
 
-public class numberOfPY {
+public class NumberOfPY {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		numberOfPY npy = new numberOfPY();
+		NumberOfPY npy = new NumberOfPY();
 				
 		System.out.println(npy.solution("Pyy"));
 	}

@@ -16,12 +16,12 @@ package level1;
 
 import java.util.Scanner;
 
-public class twoInputSum {
+public class TwoInputSum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		twoInputSum tis = new twoInputSum();
+		TwoInputSum tis = new TwoInputSum();
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		System.out.println(tis.solution(a,b));

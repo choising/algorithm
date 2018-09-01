@@ -14,11 +14,11 @@ package level1;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class descSort {
+public class DescSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		descSort ds = new descSort();
+		DescSort ds = new DescSort();
 		System.out.println(ds.solution("Zbcdefg"));
 	}
 	
