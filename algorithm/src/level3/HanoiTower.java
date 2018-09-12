@@ -26,11 +26,6 @@ public class HanoiTower {
 		// TODO Auto-generated method stub
 		HanoiTower hanoi = new HanoiTower();
 		System.out.println(hanoi.solution(3)[0][0]);
-		System.out.println(hanoi.solution(3)[0][1]);
-		System.out.println(hanoi.solution(3)[1][0]);
-		System.out.println(hanoi.solution(3)[1][1]);
-		System.out.println(hanoi.solution(3)[2][0]);
-		System.out.println(hanoi.solution(3)[2][1]);		
 	}
 	
 	public int[][] solution(int n) {
@@ -54,8 +49,4 @@ public class HanoiTower {
 		list.add(arr);
 		hanoi(n-1, by, from, to);
 	}
-	
-	
-	
-
 }
