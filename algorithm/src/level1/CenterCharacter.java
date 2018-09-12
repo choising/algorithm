@@ -1,10 +1,10 @@
-/*°¡¿îµ¥ ±ÛÀÚ °¡Á®¿À±â
-¹®Á¦ ¼³¸í
-´Ü¾î sÀÇ °¡¿îµ¥ ±ÛÀÚ¸¦ ¹ÝÈ¯ÇÏ´Â ÇÔ¼ö, solutionÀ» ¸¸µé¾î º¸¼¼¿ä. ´Ü¾îÀÇ ±æÀÌ°¡ Â¦¼ö¶ó¸é °¡¿îµ¥ µÎ±ÛÀÚ¸¦ ¹ÝÈ¯ÇÏ¸é µË´Ï´Ù.
+/*ê°€ìš´ë° ê¸€ìž ê°€ì ¸ì˜¤ê¸°
+ë¬¸ì œ ì„¤ëª…
+ë‹¨ì–´ sì˜ ê°€ìš´ë° ê¸€ìžë¥¼ ë°˜í™˜í•˜ëŠ” í•¨ìˆ˜, solutionì„ ë§Œë“¤ì–´ ë³´ì„¸ìš”. ë‹¨ì–´ì˜ ê¸¸ì´ê°€ ì§ìˆ˜ë¼ë©´ ê°€ìš´ë° ë‘ê¸€ìžë¥¼ ë°˜í™˜í•˜ë©´ ë©ë‹ˆë‹¤.
 
-ÀçÇÑ»çÇ×
-s´Â ±æÀÌ°¡ 1 ÀÌ»ó, 100ÀÌÇÏÀÎ ½ºÆ®¸µÀÔ´Ï´Ù.
-ÀÔÃâ·Â ¿¹
+ìž¬í•œì‚¬í•­
+sëŠ” ê¸¸ì´ê°€ 1 ì´ìƒ, 100ì´í•˜ì¸ ìŠ¤íŠ¸ë§ìž…ë‹ˆë‹¤.
+ìž…ì¶œë ¥ ì˜ˆ
 s	return
 abcde	c
 qwer	we
@@ -32,7 +32,7 @@ public class CenterCharacter {
 			answer = s;
 		}
 		else if(s.length() % 2 == 1) {
-			//È¦¼ö
+			//È¦ï¿½ï¿½
 			int key = 0;
 			key = (int)(s.length()/2);
 			answer = str[key];
