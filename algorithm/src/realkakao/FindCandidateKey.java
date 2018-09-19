@@ -31,7 +31,7 @@ relation	result
 입출력 예 설명
 입출력 예 #1
 문제에 주어진 릴레이션과 같으며, 후보 키는 2개이다.*/
-package realKakaoTest;
+package realkakao;
 
 import java.util.ArrayList;
 import java.util.HashSet;

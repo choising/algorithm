@@ -42,7 +42,7 @@ N	stages	result
 모든 사용자가 마지막 스테이지에 있으므로 4번 스테이지의 실패율은 1이며 나머지 스테이지의 실패율은 0이다.
 
 [4,1,2,3]*/
-package realKakaoTest;
+package realkakao;
 
 import java.util.ArrayList;
 import java.util.Collections;

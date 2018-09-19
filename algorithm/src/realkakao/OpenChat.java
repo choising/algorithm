@@ -60,7 +60,7 @@ record	result
 입출력 예 설명
 입출력 예 #1
 문제의 설명과 같다.*/
-package realKakaoTest;
+package realkakao;
 
 import java.util.ArrayList;
 import java.util.HashMap;
