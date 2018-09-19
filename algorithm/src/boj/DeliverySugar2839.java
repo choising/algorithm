@@ -36,6 +36,7 @@ public class DeliverySugar2839 {
 		else {
 			System.out.println(answer);
 		}
+		sc.close();
 	}
 
 }
