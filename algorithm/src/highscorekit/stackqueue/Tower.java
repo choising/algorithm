@@ -37,7 +37,7 @@ heights	return
 [6] 번째 탑이 쏜 신호는 5번째 탑이 수신합니다.
 [7] 번째 탑이 쏜 신호는 6번째 탑이 수신합니다.*/
 
-package highscorekit;
+package highscorekit.stackqueue;
 
 import java.util.Stack;
 

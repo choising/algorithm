@@ -37,7 +37,7 @@ class Solution {
     }
 }*/
 
-package highscorekit;
+package highscorekit.stackqueue;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
