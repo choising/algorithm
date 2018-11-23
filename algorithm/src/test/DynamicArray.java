@@ -1,7 +1,7 @@
 package test;
 
 public class DynamicArray<E> {
-	private static int DEFAULT_SIZE = 10;
+	private static final int DEFAULT_SIZE = 10;
 	
 	private int size;
 	private Object[] arr;
