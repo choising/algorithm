@@ -1,4 +1,4 @@
-package test;
+package adt;
 
 public class DynamicArray<E> {
 	private static final int DEFAULT_SIZE = 10;
