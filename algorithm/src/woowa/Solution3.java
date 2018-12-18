@@ -78,8 +78,12 @@ public class Solution3 {
 	
 	@Test
 	public void test() {
-		int a = 1000000000;
-		System.out.println(a);
+		int[] A = {60, 80, 40, 40};
+		int[] B = {1, 2, 1, 2};
+		int M = 3;
+		int X = 2;
+		int Y = 100;
+		System.out.println(solution(A, B, M, X, Y));
 	}
 }
 

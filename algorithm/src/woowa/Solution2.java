@@ -60,6 +60,25 @@ public class Solution2 {
 
 		return sb.toString();
 	}
+	
+	@Test
+	public void test() {
+		String s = "photo.jpg, seoul, 2018-11-10 08:00:05\r\n" + 
+				"wow.png, newyork, 2018-10-15 12:15:05\r\n" + 
+				"a.jpg, seoul, 2018-10-07 12:15:05\r\n" + 
+				"b.jpg, paris, 2016-10-09 17:15:44\r\n" + 
+				"c.jpg, paris, 2016-07-13 19:15:22\r\n" + 
+				"d.jpg, seoul, 2018-06-14 17:18:22\r\n" + 
+				"e.jpg, seoul, 2018-08-22 13:11:13\r\n" + 
+				"1111.jpg, paris, 2018-10-14 12:15:05\r\n" + 
+				"f.jpg, seoul, 2018-09-11 14:02:12\r\n" + 
+				"g.png, seoul, 2018-05-11 09:02:23\r\n" + 
+				"h.jpeg, seoul, 2018-02-11 07:02:44\r\n" + 
+				"i.jpg, seoul, 2017-10-14 12:17:07\r\n" + 
+				"j.jpg, seoul, 2017-10-14 12:16:02\r\n" + 
+				"k.jpg, seoul, 2017-10-14 12:15:05";
+		System.out.println(solution(s));
+	}
 }
 
 class Photo implements Comparable<Photo> {
