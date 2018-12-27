@@ -15,7 +15,6 @@ public class Factorial10872 {
 			answer *= i;
 		}
 		System.out.println(answer);
-		
 	}
 
 }
