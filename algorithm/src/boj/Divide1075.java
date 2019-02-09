@@ -9,7 +9,6 @@ public class Divide1075 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int f = Integer.parseInt(br.readLine());
-
         int a = n - n%100;
         System.out.println(go(a,f));
     }
