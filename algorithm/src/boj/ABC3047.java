@@ -34,10 +34,6 @@ enum MyNumber {
 		this.val = val;
 		this.str = str;
 	}
-	
-	public int getVal() {
-		return val;
-	}
 
 	public static int find(String s) {
 		for (MyNumber n : values()) {
